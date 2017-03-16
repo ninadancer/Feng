@@ -1,0 +1,31 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<Feng.module>","<Feng.exe>"]
+  "main": ["<Feng.module>","<Feng.exe>"]
+default: "main"
+commands: 
+  "<Feng.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Feng"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.swiftmodule"
+    inputs: []
+    outputs: ["<Feng.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<Feng.exe>":
+    tool: shell
+    description: "Linking ./.build/debug/Feng"
+    inputs: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+    outputs: ["<Feng.exe>","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/rongrongdeng/Documents/Feng/.build/debug","-o","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-emit-executable","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+
