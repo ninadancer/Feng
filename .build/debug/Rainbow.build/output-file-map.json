@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/master.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/BackgroundColor.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/CodesParser.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Color.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ControlCode.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ModesExtractor.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/OutputTarget.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Rainbow.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/String+Rainbow.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/StringGenerator.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Style.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/XcodeColorsSupport.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swiftdeps"
+  }
+}

@@ -1,57 +1,385 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "cli"
+- "projectOption"
+- "excludePathsOption"
+- "resourceExtensionsOption"
+- "fileExtensionsOption"
+- "help"
+- "project"
+- "resourceExtensions"
+- "fileExtensions"
+- "excludedPaths"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "BoolOption"
+- "help"
+- "EX_USAGE"
+- "exit"
+- "cli"
+- "excludedPaths"
 - "StringLiteralType"
-- "print"
+- "UnicodeScalarType"
+- "Array"
+- "StringOption"
+- "excludePathsOption"
+- "projectOption"
+- "resourceExtensionsOption"
+- "AssignmentPrecedence"
+- "CommandLineKit"
+- "??"
+- "MultiStringOption"
+- "String"
+- "project"
+- "fileExtensions"
+- "resourceExtensions"
+- "EX_OK"
+- "fileExtensionsOption"
 depends-member:
+- ["Ps9AnyObject", "addOptions"]
+- ["Ps9AnyObject", "bold"]
+- ["Ps9AnyObject", "defaultFormat"]
+- ["Ps9AnyObject", "formatOutput"]
+- ["Ps9AnyObject", "green"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lightBlue"]
+- ["Ps9AnyObject", "parse"]
+- ["Ps9AnyObject", "printUsage"]
+- ["Ps9AnyObject", "red"]
+- ["Ps9AnyObject", "underline"]
+- ["Ps9AnyObject", "value"]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["C14CommandLineKit10BoolOption", "deinit"]
+- ["C14CommandLineKit10BoolOption", "init"]
+- ["C14CommandLineKit10BoolOption", "value"]
+- ["Ps7CVarArg", "Element"]
+- ["Ps7CVarArg", "bold"]
+- ["Ps7CVarArg", "green"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lightBlue"]
+- ["Ps7CVarArg", "red"]
+- ["Ps7CVarArg", "underline"]
+- ["Ps10Collection", "Element"]
+- ["C14CommandLineKit11CommandLine", "addOptions"]
+- ["C14CommandLineKit11CommandLine", "defaultFormat"]
+- ["C14CommandLineKit11CommandLine", "deinit"]
+- ["C14CommandLineKit11CommandLine", "formatOutput"]
+- ["C14CommandLineKit11CommandLine", "init"]
+- ["C14CommandLineKit11CommandLine", "parse"]
+- ["C14CommandLineKit11CommandLine", "printUsage"]
+- ["Ps10Comparable", "bold"]
+- ["Ps10Comparable", "green"]
 - ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "lightBlue"]
+- ["Ps10Comparable", "red"]
+- ["Ps10Comparable", "underline"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "bold"]
+- ["Ps28CustomDebugStringConvertible", "green"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lightBlue"]
+- ["Ps28CustomDebugStringConvertible", "red"]
+- ["Ps28CustomDebugStringConvertible", "underline"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "bold"]
+- ["Ps29CustomPlaygroundQuickLookable", "green"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "lightBlue"]
+- ["Ps29CustomPlaygroundQuickLookable", "red"]
+- ["Ps29CustomPlaygroundQuickLookable", "underline"]
+- ["Ps17CustomReflectable", "Element"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "bold"]
+- ["Ps17CustomReflectable", "green"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "lightBlue"]
+- ["Ps17CustomReflectable", "red"]
+- ["Ps17CustomReflectable", "underline"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "bold"]
+- ["Ps23CustomStringConvertible", "green"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lightBlue"]
+- ["Ps23CustomStringConvertible", "red"]
+- ["Ps23CustomStringConvertible", "underline"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "bold"]
+- ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "green"]
 - ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lightBlue"]
+- ["Ps9Equatable", "optionFlag"]
+- ["Ps9Equatable", "optionHelp"]
+- ["Ps9Equatable", "red"]
+- ["Ps9Equatable", "underline"]
+- ["Ps5Error", "deinit"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bold"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "green"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "lightBlue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "red"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "underline"]
+- ["Ps32ExpressibleByStringInterpolation", "bold"]
+- ["Ps32ExpressibleByStringInterpolation", "green"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "lightBlue"]
+- ["Ps32ExpressibleByStringInterpolation", "red"]
+- ["Ps32ExpressibleByStringInterpolation", "underline"]
+- ["Ps26ExpressibleByStringLiteral", "bold"]
+- ["Ps26ExpressibleByStringLiteral", "green"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "lightBlue"]
+- ["Ps26ExpressibleByStringLiteral", "red"]
+- ["Ps26ExpressibleByStringLiteral", "underline"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "bold"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "green"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "lightBlue"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "red"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "underline"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "bold"]
+- ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "green"]
 - ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lightBlue"]
+- ["Ps8Hashable", "optionFlag"]
+- ["Ps8Hashable", "optionHelp"]
+- ["Ps8Hashable", "red"]
+- ["Ps8Hashable", "underline"]
+- ["Ps9Indexable", "Element"]
+- ["Ps13IndexableBase", "Element"]
+- ["Vs5Int32", "deinit"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "bold"]
+- ["Ps25LosslessStringConvertible", "green"]
 - ["Ps25LosslessStringConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "lightBlue"]
+- ["Ps25LosslessStringConvertible", "red"]
+- ["Ps25LosslessStringConvertible", "underline"]
+- ["Ps10MirrorPath", "bold"]
+- ["Ps10MirrorPath", "green"]
 - ["Ps10MirrorPath", "init"]
+- ["Ps10MirrorPath", "lightBlue"]
+- ["Ps10MirrorPath", "red"]
+- ["Ps10MirrorPath", "underline"]
+- ["C14CommandLineKit17MultiStringOption", "deinit"]
+- ["C14CommandLineKit17MultiStringOption", "init"]
+- ["C14CommandLineKit17MultiStringOption", "value"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- ["PSo8NSCoding", "bold"]
+- ["PSo8NSCoding", "green"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lightBlue"]
+- ["PSo8NSCoding", "red"]
+- ["PSo8NSCoding", "underline"]
+- ["PSo9NSCopying", "bold"]
+- ["PSo9NSCopying", "green"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "lightBlue"]
+- ["PSo9NSCopying", "red"]
+- ["PSo9NSCopying", "underline"]
+- ["PSo16NSMutableCopying", "bold"]
+- ["PSo16NSMutableCopying", "green"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSMutableCopying", "lightBlue"]
+- ["PSo16NSMutableCopying", "red"]
+- ["PSo16NSMutableCopying", "underline"]
+- ["CSo8NSObject", "bold"]
+- ["CSo8NSObject", "green"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lightBlue"]
+- ["CSo8NSObject", "red"]
+- ["CSo8NSObject", "underline"]
+- ["PSo16NSObjectProtocol", "bold"]
+- ["PSo16NSObjectProtocol", "green"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lightBlue"]
+- ["PSo16NSObjectProtocol", "red"]
+- ["PSo16NSObjectProtocol", "underline"]
+- ["PSo14NSSecureCoding", "bold"]
+- ["PSo14NSSecureCoding", "green"]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "lightBlue"]
+- ["PSo14NSSecureCoding", "red"]
+- ["PSo14NSSecureCoding", "underline"]
+- ["CSo8NSString", "bold"]
+- ["CSo8NSString", "green"]
+- ["CSo8NSString", "init"]
+- ["CSo8NSString", "lightBlue"]
+- ["CSo8NSString", "red"]
+- ["CSo8NSString", "underline"]
+- ["Os5Never", "deinit"]
+- ["C14CommandLineKit6Option", "init"]
+- ["C14CommandLineKit6Option", "value"]
+- ["Sq", "deinit"]
+- ["OC14CommandLineKit11CommandLine10OutputType", "deinit"]
+- ["OC14CommandLineKit11CommandLine10OutputType", "error"]
+- ["OC14CommandLineKit11CommandLine10OutputType", "optionFlag"]
+- ["OC14CommandLineKit11CommandLine10OutputType", "optionHelp"]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- ["Ps8Sequence", "Element"]
+- ["SS", "bold"]
+- ["SS", "deinit"]
+- ["SS", "green"]
 - ["SS", "init"]
+- ["SS", "lightBlue"]
+- ["SS", "red"]
+- ["SS", "underline"]
+- ["C14CommandLineKit12StringOption", "deinit"]
+- ["C14CommandLineKit12StringOption", "init"]
+- ["C14CommandLineKit12StringOption", "value"]
+- ["Ps16TextOutputStream", "bold"]
+- ["Ps16TextOutputStream", "green"]
 - ["Ps16TextOutputStream", "init"]
+- ["Ps16TextOutputStream", "lightBlue"]
+- ["Ps16TextOutputStream", "red"]
+- ["Ps16TextOutputStream", "underline"]
+- ["Ps20TextOutputStreamable", "bold"]
+- ["Ps20TextOutputStreamable", "green"]
 - ["Ps20TextOutputStreamable", "init"]
+- ["Ps20TextOutputStreamable", "lightBlue"]
+- ["Ps20TextOutputStreamable", "red"]
+- ["Ps20TextOutputStreamable", "underline"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "bold"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "green"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "lightBlue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "red"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "underline"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "bold"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "green"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "lightBlue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "red"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "underline"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "bold"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "green"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "lightBlue"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "red"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "underline"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "bold"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "green"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "lightBlue"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "red"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "underline"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "bold"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "green"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "lightBlue"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "red"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "underline"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "bold"]
+- ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "green"]
 - ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lightBlue"]
+- ["Ps9_Hashable", "optionFlag"]
+- ["Ps9_Hashable", "optionHelp"]
+- ["Ps9_Hashable", "red"]
+- ["Ps9_Hashable", "underline"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "bold"]
+- ["Ps21_ObjectiveCBridgeable", "green"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "lightBlue"]
+- ["Ps21_ObjectiveCBridgeable", "red"]
+- ["Ps21_ObjectiveCBridgeable", "underline"]
 depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "C14CommandLineKit10BoolOption"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "C14CommandLineKit11CommandLine"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Vs5Int32"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
+- "C14CommandLineKit17MultiStringOption"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "C14CommandLineKit6Option"
+- "Sq"
+- "OC14CommandLineKit11CommandLine10OutputType"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
 - "SS"
+- "C14CommandLineKit12StringOption"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
 - "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "577da462ae6d84128f03eb873777a490"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.swiftmodule"
+- "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.swiftmodule"
+- "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.swiftmodule"
+- "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.swiftmodule"
+interface-hash: "1e8248ebd0eec2a67c025af5a4010dcb"

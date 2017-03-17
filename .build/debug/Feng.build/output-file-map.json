@@ -2,7 +2,7 @@
   "": {
     "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/master.swiftdeps"
   },
-  "/Users/rongrongdeng/Documents/Feng/Sources/main.swift": {
+  "/Users/rongrongdeng/Documents/Feng/Sources/Feng/main.swift": {
     "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.d",
     "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o",
     "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main~partial.swiftmodule",

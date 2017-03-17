@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/master.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/PathKit-0.8.0/Sources/PathKit.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swiftdeps"
+  }
+}

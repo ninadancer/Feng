@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/master.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/CommandLine.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/Option.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/StringExtensions.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f1d58e791472fe14c1a8d655eb875b2f"
+build_time: [542993106, 781629000]
+inputs:
+  "/Users/rongrongdeng/Documents/Feng/Packages/PathKit-0.8.0/Sources/PathKit.swift": [542993069, 0]

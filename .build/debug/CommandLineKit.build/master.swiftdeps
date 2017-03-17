@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "89b8d36b9e94a91f6279e9c85c634664"
+build_time: [542982292, 896496000]
+inputs:
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/CommandLine.swift": [542982277, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/Option.swift": [542982277, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/StringExtensions.swift": [542982292, 0]

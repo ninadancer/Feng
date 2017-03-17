@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/master.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Tests/FengKitTests/FengKitSpec.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Tests/FengKitTests/FengKitTests.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swiftdeps"
+  }
+}

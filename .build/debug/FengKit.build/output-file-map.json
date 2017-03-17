@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/master.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/Extensions.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/FengKit.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swiftdeps"
+  },
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/StringsSearchRule.swift": {
+    "dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.d",
+    "object": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o",
+    "swiftmodule": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule~partial.swiftmodule",
+    "swift-dependencies": "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swiftdeps"
+  }
+}

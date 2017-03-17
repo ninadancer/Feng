@@ -1,0 +1,381 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModeCode"
+- "Rainbow"
+provides-nominal:
+- "P7Rainbow8ModeCode"
+- "V7Rainbow7Rainbow"
+provides-member:
+- ["P7Rainbow8ModeCode", ""]
+- ["V7Rainbow7Rainbow", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BooleanLiteralType"
+- "String"
+- "Rainbow"
+- !private "&&"
+- !private "XcodeColorsCodesParser"
+- !private "Bool"
+- !private "XcodeColorsModesExtractor"
+- "ModeCode"
+- !private "ConsoleCodesParser"
+- "UInt8"
+- !private "XcodeColorsStringGenerator"
+- "Color"
+- !private "ConsoleStringGenerator"
+- !private "ConsoleModesExtractor"
+- !private "ControlCode"
+- "BackgroundColor"
+- "Style"
+- "OutputTarget"
+depends-member:
+- !private ["Ps9AnyObject", "hasPrefix"]
+- !private ["Ps9AnyObject", "hasSuffix"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isConsoleStyle"]
+- !private ["Ps9AnyObject", "isXcodeColorsStyle"]
+- ["Sa", "deinit"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "ControlCode"]
+- !private ["Ps7CVarArg", "hasPrefix"]
+- !private ["Ps7CVarArg", "hasSuffix"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isConsoleStyle"]
+- !private ["Ps7CVarArg", "isXcodeColorsStyle"]
+- !private ["Vs9Character", "deinit"]
+- !private ["P7Rainbow11CodesParser", "init"]
+- !private ["P7Rainbow11CodesParser", "parse"]
+- !private ["Ps10Comparable", "ControlCode"]
+- !private ["Ps10Comparable", "hasPrefix"]
+- !private ["Ps10Comparable", "hasSuffix"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isConsoleStyle"]
+- !private ["Ps10Comparable", "isXcodeColorsStyle"]
+- ["V7Rainbow18ConsoleCodesParser", "deinit"]
+- !private ["V7Rainbow18ConsoleCodesParser", "init"]
+- !private ["V7Rainbow18ConsoleCodesParser", "parse"]
+- ["V7Rainbow21ConsoleModesExtractor", "deinit"]
+- !private ["V7Rainbow21ConsoleModesExtractor", "extract"]
+- !private ["V7Rainbow21ConsoleModesExtractor", "init"]
+- ["V7Rainbow22ConsoleStringGenerator", "deinit"]
+- !private ["V7Rainbow22ConsoleStringGenerator", "generate"]
+- !private ["V7Rainbow22ConsoleStringGenerator", "init"]
+- !private ["V7Rainbow11ControlCode", "CSI"]
+- !private ["Ps28CustomDebugStringConvertible", "ControlCode"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["Ps28CustomDebugStringConvertible", "hasSuffix"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isConsoleStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "isXcodeColorsStyle"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "ControlCode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasPrefix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasSuffix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isConsoleStyle"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isXcodeColorsStyle"]
+- !private ["Ps17CustomReflectable", "ControlCode"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hasPrefix"]
+- !private ["Ps17CustomReflectable", "hasSuffix"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isConsoleStyle"]
+- !private ["Ps17CustomReflectable", "isXcodeColorsStyle"]
+- !private ["Ps23CustomStringConvertible", "ControlCode"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hasPrefix"]
+- !private ["Ps23CustomStringConvertible", "hasSuffix"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isConsoleStyle"]
+- !private ["Ps23CustomStringConvertible", "isXcodeColorsStyle"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "ControlCode"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "console"]
+- ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "hasPrefix"]
+- !private ["Ps9Equatable", "hasSuffix"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isConsoleStyle"]
+- !private ["Ps9Equatable", "isXcodeColorsStyle"]
+- ["Ps9Equatable", "unknown"]
+- ["Ps9Equatable", "xcodeColors"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "ControlCode"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isConsoleStyle"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isXcodeColorsStyle"]
+- !private ["Ps32ExpressibleByStringInterpolation", "ControlCode"]
+- !private ["Ps32ExpressibleByStringInterpolation", "hasPrefix"]
+- !private ["Ps32ExpressibleByStringInterpolation", "hasSuffix"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isConsoleStyle"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isXcodeColorsStyle"]
+- !private ["Ps26ExpressibleByStringLiteral", "ControlCode"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasPrefix"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasSuffix"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isConsoleStyle"]
+- !private ["Ps26ExpressibleByStringLiteral", "isXcodeColorsStyle"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "ControlCode"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isConsoleStyle"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isXcodeColorsStyle"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "ControlCode"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "console"]
+- ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "hasPrefix"]
+- !private ["Ps8Hashable", "hasSuffix"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isConsoleStyle"]
+- !private ["Ps8Hashable", "isXcodeColorsStyle"]
+- ["Ps8Hashable", "unknown"]
+- ["Ps8Hashable", "xcodeColors"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "ControlCode"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "hasPrefix"]
+- !private ["Ps25LosslessStringConvertible", "hasSuffix"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isConsoleStyle"]
+- !private ["Ps25LosslessStringConvertible", "isXcodeColorsStyle"]
+- !private ["Ps10MirrorPath", "ControlCode"]
+- !private ["Ps10MirrorPath", "hasPrefix"]
+- !private ["Ps10MirrorPath", "hasSuffix"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isConsoleStyle"]
+- !private ["Ps10MirrorPath", "isXcodeColorsStyle"]
+- ["P7Rainbow8ModeCode", "UInt8"]
+- ["P7Rainbow8ModeCode", "value"]
+- ["P7Rainbow8ModeCode", ""]
+- !private ["P7Rainbow14ModesExtractor", "extract"]
+- !private ["P7Rainbow14ModesExtractor", "init"]
+- !private ["PSo8NSCoding", "hasPrefix"]
+- !private ["PSo8NSCoding", "hasSuffix"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isConsoleStyle"]
+- !private ["PSo8NSCoding", "isXcodeColorsStyle"]
+- !private ["PSo9NSCopying", "hasPrefix"]
+- !private ["PSo9NSCopying", "hasSuffix"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isConsoleStyle"]
+- !private ["PSo9NSCopying", "isXcodeColorsStyle"]
+- !private ["PSo16NSMutableCopying", "hasPrefix"]
+- !private ["PSo16NSMutableCopying", "hasSuffix"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isConsoleStyle"]
+- !private ["PSo16NSMutableCopying", "isXcodeColorsStyle"]
+- !private ["CSo8NSObject", "hasPrefix"]
+- !private ["CSo8NSObject", "hasSuffix"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isConsoleStyle"]
+- !private ["CSo8NSObject", "isXcodeColorsStyle"]
+- !private ["PSo16NSObjectProtocol", "hasPrefix"]
+- !private ["PSo16NSObjectProtocol", "hasSuffix"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isConsoleStyle"]
+- !private ["PSo16NSObjectProtocol", "isXcodeColorsStyle"]
+- !private ["PSo14NSSecureCoding", "hasPrefix"]
+- !private ["PSo14NSSecureCoding", "hasSuffix"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isConsoleStyle"]
+- !private ["PSo14NSSecureCoding", "isXcodeColorsStyle"]
+- !private ["CSo8NSString", "hasPrefix"]
+- !private ["CSo8NSString", "hasSuffix"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isConsoleStyle"]
+- !private ["CSo8NSString", "isXcodeColorsStyle"]
+- ["Sq", "deinit"]
+- ["O7Rainbow12OutputTarget", "console"]
+- ["O7Rainbow12OutputTarget", "current"]
+- ["O7Rainbow12OutputTarget", "deinit"]
+- ["O7Rainbow12OutputTarget", "unknown"]
+- ["O7Rainbow12OutputTarget", "xcodeColors"]
+- ["V7Rainbow7Rainbow", "BackgroundColor"]
+- ["V7Rainbow7Rainbow", "Color"]
+- !private ["V7Rainbow7Rainbow", "ConsoleCodesParser"]
+- !private ["V7Rainbow7Rainbow", "ConsoleModesExtractor"]
+- !private ["V7Rainbow7Rainbow", "ConsoleStringGenerator"]
+- ["V7Rainbow7Rainbow", "OutputTarget"]
+- ["V7Rainbow7Rainbow", "String"]
+- ["V7Rainbow7Rainbow", "Style"]
+- !private ["V7Rainbow7Rainbow", "XcodeColorsCodesParser"]
+- !private ["V7Rainbow7Rainbow", "XcodeColorsModesExtractor"]
+- !private ["V7Rainbow7Rainbow", "XcodeColorsStringGenerator"]
+- ["V7Rainbow7Rainbow", "enabled"]
+- ["V7Rainbow7Rainbow", "extractModes"]
+- ["V7Rainbow7Rainbow", "generateString"]
+- ["V7Rainbow7Rainbow", "init"]
+- ["V7Rainbow7Rainbow", "outputTarget"]
+- !private ["SS", "Bool"]
+- !private ["SS", "ControlCode"]
+- ["SS", "deinit"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "hasSuffix"]
+- !private ["SS", "init"]
+- !private ["SS", "isConsoleStyle"]
+- !private ["SS", "isXcodeColorsStyle"]
+- !private ["P7Rainbow15StringGenerator", "generate"]
+- !private ["P7Rainbow15StringGenerator", "init"]
+- !private ["Ps16TextOutputStream", "ControlCode"]
+- !private ["Ps16TextOutputStream", "hasPrefix"]
+- !private ["Ps16TextOutputStream", "hasSuffix"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isConsoleStyle"]
+- !private ["Ps16TextOutputStream", "isXcodeColorsStyle"]
+- !private ["Ps20TextOutputStreamable", "ControlCode"]
+- !private ["Ps20TextOutputStreamable", "hasPrefix"]
+- !private ["Ps20TextOutputStreamable", "hasSuffix"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isConsoleStyle"]
+- !private ["Ps20TextOutputStreamable", "isXcodeColorsStyle"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["V7Rainbow22XcodeColorsCodesParser", "deinit"]
+- !private ["V7Rainbow22XcodeColorsCodesParser", "init"]
+- !private ["V7Rainbow22XcodeColorsCodesParser", "parse"]
+- ["V7Rainbow25XcodeColorsModesExtractor", "deinit"]
+- !private ["V7Rainbow25XcodeColorsModesExtractor", "extract"]
+- !private ["V7Rainbow25XcodeColorsModesExtractor", "init"]
+- ["V7Rainbow26XcodeColorsStringGenerator", "deinit"]
+- !private ["V7Rainbow26XcodeColorsStringGenerator", "generate"]
+- !private ["V7Rainbow26XcodeColorsStringGenerator", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "ControlCode"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isConsoleStyle"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isXcodeColorsStyle"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "ControlCode"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPrefix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasSuffix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isConsoleStyle"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isXcodeColorsStyle"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "ControlCode"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasPrefix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasSuffix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isConsoleStyle"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isXcodeColorsStyle"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "ControlCode"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isConsoleStyle"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isXcodeColorsStyle"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasPrefix"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasSuffix"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isConsoleStyle"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isXcodeColorsStyle"]
+- !private ["Ps9_Hashable", "ControlCode"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "console"]
+- ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "hasPrefix"]
+- !private ["Ps9_Hashable", "hasSuffix"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isConsoleStyle"]
+- !private ["Ps9_Hashable", "isXcodeColorsStyle"]
+- ["Ps9_Hashable", "unknown"]
+- ["Ps9_Hashable", "xcodeColors"]
+- !private ["Ps21_ObjectiveCBridgeable", "ControlCode"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hasPrefix"]
+- !private ["Ps21_ObjectiveCBridgeable", "hasSuffix"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isConsoleStyle"]
+- !private ["Ps21_ObjectiveCBridgeable", "isXcodeColorsStyle"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "P7Rainbow11CodesParser"
+- !private "Ps10Comparable"
+- "V7Rainbow18ConsoleCodesParser"
+- "V7Rainbow21ConsoleModesExtractor"
+- "V7Rainbow22ConsoleStringGenerator"
+- !private "V7Rainbow11ControlCode"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P7Rainbow8ModeCode"
+- !private "P7Rainbow14ModesExtractor"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "O7Rainbow12OutputTarget"
+- "V7Rainbow7Rainbow"
+- "SS"
+- !private "P7Rainbow15StringGenerator"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "V7Rainbow22XcodeColorsCodesParser"
+- "V7Rainbow25XcodeColorsModesExtractor"
+- "V7Rainbow26XcodeColorsStringGenerator"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "2d660df3a7a192f5fbababfc89eb198b"

@@ -2,30 +2,133 @@ client:
   name: swift-build
 tools: {}
 targets:
-  "test": ["<Feng.module>","<Feng.exe>"]
-  "main": ["<Feng.module>","<Feng.exe>"]
+  "test": ["<CommandLineKit.module>","<Rainbow.module>","<Spectre.module>","<PathKit.module>","<Feng.module>","<FengKit.module>","<FengKitTests.module>","<Feng.exe>","<FengPackageTests.test>"]
+  "main": ["<CommandLineKit.module>","<Rainbow.module>","<Spectre.module>","<PathKit.module>","<Feng.module>","<FengKit.module>","<Feng.exe>"]
 default: "main"
 commands: 
+  "<CommandLineKit.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "CommandLineKit"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.swiftmodule"
+    inputs: []
+    outputs: ["<CommandLineKit.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/CommandLine.swift","/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/Option.swift","/Users/rongrongdeng/Documents/Feng/Packages/CommandLine-3.0.0-pre1/CommandLineKit/StringExtensions.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<Rainbow.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Rainbow"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.swiftmodule"
+    inputs: []
+    outputs: ["<Rainbow.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/BackgroundColor.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/CodesParser.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Color.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ControlCode.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ModesExtractor.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/OutputTarget.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Rainbow.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/String+Rainbow.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/StringGenerator.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Style.swift","/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/XcodeColorsSupport.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<Spectre.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Spectre"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.swiftmodule"
+    inputs: []
+    outputs: ["<Spectre.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Case.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Context.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Expectation.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Failure.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Global.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/GlobalContext.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Reporter.swift","/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Reporters.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<PathKit.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PathKit"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.swiftmodule"
+    inputs: ["<Spectre.module>"]
+    outputs: ["<PathKit.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Packages/PathKit-0.8.0/Sources/PathKit.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
   "<Feng.module>":
     tool: swift-compiler
     executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
     module-name: "Feng"
     module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.swiftmodule"
-    inputs: []
+    inputs: ["<CommandLineKit.module>","<Rainbow.module>","<Spectre.module>","<PathKit.module>","<FengKit.module>"]
     outputs: ["<Feng.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
     import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
     temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build"
     objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
     other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
-    sources: ["/Users/rongrongdeng/Documents/Feng/Sources/main.swift"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Sources/Feng/main.swift"]
     is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<FengKit.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "FengKit"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.swiftmodule"
+    inputs: ["<CommandLineKit.module>","<Rainbow.module>","<Spectre.module>","<PathKit.module>"]
+    outputs: ["<FengKit.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Sources/FengKit/Extensions.swift","/Users/rongrongdeng/Documents/Feng/Sources/FengKit/FengKit.swift","/Users/rongrongdeng/Documents/Feng/Sources/FengKit/StringsSearchRule.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<FengKitTests.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "FengKitTests"
+    module-output-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.swiftmodule"
+    inputs: ["<CommandLineKit.module>","<Rainbow.module>","<Spectre.module>","<PathKit.module>","<FengKit.module>"]
+    outputs: ["<FengKitTests.module>","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swift.o"]
+    import-paths: ["/Users/rongrongdeng/Documents/Feng/.build/debug"]
+    temps-path: "/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build"
+    objects: ["/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/rongrongdeng/Documents/Feng/.build/debug/ModuleCache"]
+    sources: ["/Users/rongrongdeng/Documents/Feng/Tests/FengKitTests/FengKitSpec.swift","/Users/rongrongdeng/Documents/Feng/Tests/FengKitTests/FengKitTests.swift"]
+    is-library: true
     enable-whole-module-optimization: false
     num-threads: "8"
 
   "<Feng.exe>":
     tool: shell
     description: "Linking ./.build/debug/Feng"
-    inputs: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+    inputs: ["/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
     outputs: ["<Feng.exe>","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng"]
-    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/rongrongdeng/Documents/Feng/.build/debug","-o","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-emit-executable","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/rongrongdeng/Documents/Feng/.build/debug","-o","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-emit-executable","/Users/rongrongdeng/Documents/Feng/.build/debug/Feng.build/main.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
+
+  "<FengPackageTests.test>":
+    tool: shell
+    description: "Linking ./.build/debug/FengPackageTests.xctest/Contents/MacOS/FengPackageTests"
+    inputs: ["/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
+    outputs: ["<FengPackageTests.test>","/Users/rongrongdeng/Documents/Feng/.build/debug/FengPackageTests.xctest/Contents/MacOS/FengPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/rongrongdeng/Documents/Feng/.build/debug","-o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengPackageTests.xctest/Contents/MacOS/FengPackageTests","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-module-name","FengPackageTests","-Xlinker","-bundle","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitSpec.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKitTests.build/FengKitTests.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/CommandLine.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/Option.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/CommandLineKit.build/StringExtensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/BackgroundColor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/CodesParser.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Color.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ControlCode.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/ModesExtractor.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/OutputTarget.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/String+Rainbow.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/StringGenerator.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/Style.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Rainbow.build/XcodeColorsSupport.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Case.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Context.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Expectation.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Failure.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Global.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/GlobalContext.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporter.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/Spectre.build/Reporters.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/PathKit.build/PathKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/Extensions.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/FengKit.swift.o","/Users/rongrongdeng/Documents/Feng/.build/debug/FengKit.build/StringsSearchRule.swift.o"]
 

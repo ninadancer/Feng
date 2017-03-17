@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "1f7f3f2f9e660629da49912621ea4450"
+build_time: [543090334, 846548000]
+inputs:
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/Extensions.swift": [543085537, 0]
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/FengKit.swift": [543090180, 0]
+  "/Users/rongrongdeng/Documents/Feng/Sources/FengKit/StringsSearchRule.swift": [543090075, 0]

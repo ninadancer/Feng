@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "78c7a3eeef0deae9898d069c94702e31"
+build_time: [542993105, 323340000]
+inputs:
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Case.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Context.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Expectation.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Failure.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Global.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/GlobalContext.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Reporter.swift": [542993099, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Spectre-0.7.2/Sources/Reporters.swift": [542993099, 0]

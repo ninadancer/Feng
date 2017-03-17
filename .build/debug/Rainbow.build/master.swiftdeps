@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "61f958bc879d07e4f0c993d8d6e2d2f0"
+build_time: [542988541, 127848000]
+inputs:
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/BackgroundColor.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/CodesParser.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Color.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ControlCode.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/ModesExtractor.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/OutputTarget.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Rainbow.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/String+Rainbow.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/StringGenerator.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/Style.swift": [542988533, 0]
+  "/Users/rongrongdeng/Documents/Feng/Packages/Rainbow-2.0.1/Sources/XcodeColorsSupport.swift": [542988533, 0]
